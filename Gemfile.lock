@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.7.6)
+    influxdb-client (1.12.1)
+    ruze (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  influxdb-client
+  ruze
+
+BUNDLED WITH
+   2.2.14
