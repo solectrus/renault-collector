@@ -15,6 +15,4 @@ services:
       - INFLUX_ORG
       - INFLUX_BUCKET
     command: bundle exec app/main.rb
-    network_mode: host
-    privileged: true
     restart: unless-stopped

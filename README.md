@@ -1,14 +1,11 @@
 # Renault collector
 
-Collect data from Renault ZE and push it to InfluxDB 2
+Collect data from Renault ZE and push it to InfluxDB 2. Tested with Renault ZOE.
 
-Tested with Renault ZOE
-and Raspberry Pi 4 Model B on Raspbian GNU/Linux 10 (buster)
-
-## Build image for Raspberry Pi
+## Build image
 
 ```bash
-docker buildx build --platform linux/arm/v7 -t renault-collector .
+docker build -t renault-collector .
 ```
 
 ## Run container
